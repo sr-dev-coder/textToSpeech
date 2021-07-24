@@ -17,10 +17,10 @@ function App() {
   return (
     <div className="App">
       <div className="container p-5 mx-auto">
-        <div className="w-3/6 mx-auto py-5">
+        <div className="lg:w-3/6 mx-auto py-5">
          <h2 className="text-xl font-semibold">What would you like type below and hit speaker button and listen...</h2>
         </div>
-        <div className="bg-white shadow-md rounded-md w-3/6 mx-auto p-5">
+        <div className="bg-white shadow-md rounded-md lg:w-3/6 mx-auto p-5">
             <Textarea handleChange={textareaValue} placeholder="Type here..."/>            
             <TalkButton handleClick={handleClick} className={textarea ? 'text-gray-600 pointer-events-auto' : 'text-gray-400 pointer-events-none'} />
         </div>
