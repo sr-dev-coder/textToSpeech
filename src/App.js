@@ -16,11 +16,11 @@ function App() {
   }
   return (
     <div className="App">
-      <div className="lg:w-3/6 p-5 mx-auto relative min-h-screen items-center flex">
+      <div className="lg:w-3/6 p-5 mx-auto relative min-h-screen items-center flex justify-center">
 
         <div className="mix-blend-multiply filter blur-xl opacity-30 absolute top-64 -left-24 w-4/6 h-4/6 rounded-full bg-purple-300"></div>
         <div className="mix-blend-multiply filter blur-xl opacity-30 absolute bottom-64 -right-24 w-4/6 h-4/6 rounded-full bg-yellow-300"></div>
-
+ 
         <div className="w-full mx-auto z-10">
           <div className="mx-auto py-5">
           <h2 className="text-xl md:text-2xl font-semibold">What would you like type below and hit speaker button and listen...</h2>
