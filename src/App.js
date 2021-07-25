@@ -14,6 +14,7 @@ function App() {
     speech.text = textarea;
     window.speechSynthesis.speak(speech);
   }
+  
   return (
     <div className="App">
       <div className="lg:w-3/6 p-5 mx-auto relative min-h-screen items-center flex justify-center">
