@@ -4,9 +4,9 @@ import { Textarea } from './component/forms/textarea';
 import { TalkButton } from './component/forms/talkButton';
 
 function App() {
-  const [textarea , setTExtarea] = useState('')
+  const [textarea , setTextarea] = useState('')
   const textareaValue = (event) =>{
-    setTExtarea(event.target.value);
+    setTextarea(event.target.value);
   }
   
   const handleClick = () =>{
